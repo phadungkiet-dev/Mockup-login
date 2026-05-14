@@ -24,7 +24,7 @@
 cd apps/backend
 npm install
 
-# อย่าลืมก๊อปปี้ .env.example เป็น .env และตั้งค่า DATABASE_URL / JWT_SECRET
+## อย่าลืมก๊อปปี้ .env.example เป็น .env และตั้งค่า DATABASE_URL / JWT_SECRET
 
 npx prisma migrate dev
 npm run dev
@@ -33,6 +33,6 @@ npm run dev
 cd apps/frontend
 npm install
 
-# อย่าลืมก๊อปปี้ .env.local.example เป็น .env.local และตั้งค่า NEXT_PUBLIC_GOOGLE_CLIENT_ID
+## อย่าลืมก๊อปปี้ .env.local.example เป็น .env.local และตั้งค่า NEXT_PUBLIC_GOOGLE_CLIENT_ID
 
 npm run dev
